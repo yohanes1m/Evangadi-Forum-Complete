@@ -1,0 +1,131 @@
+.wrapper {
+  /* margin-top: 50vh !important; */
+}
+.container {
+  width: 80%;
+  margin: 10px auto ;
+  padding: 30px 0;
+}
+.AnswerPg {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+}
+.communityAns {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.AllAns {
+  height: 250px;
+  overflow-y: scroll;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.AllAns:-webkit-scrollbar {
+  display: none;
+}
+.username {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+}
+.desc {
+  font-size: 16px;
+  margin: 20px 0;
+}
+.community {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0 30px;
+}
+.AnswerPg .avater {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AnswerPg .avater img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.avatar_img {
+  border-radius: 80%;
+  border: 2px solid rgb(68, 62, 62);
+  color: black;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+.arrow {
+  display: flex;
+  gap: 7px;
+  margin: 7px 0;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+}
+.communityAns {
+  text-align: center;
+  margin: 120px 0;
+  padding: 30px 0;
+  height: 70px;
+}
+.answer_form button {
+  border: none;
+  background-color: #516cf0;
+  padding: 7px 20px;
+  opacity: 0.65;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 28%;
+  border-radius: 5px;
+}
+.answer_form textarea {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+.answerUser {
+  float: right;
+  padding-bottom: 50px;
+}
+.no_answer {
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-offset: 5px;
+}
+.urAns {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.avatar_img {
+  border-radius: 50%;
+  border: 2px solid gray;
+  color: black;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 5%;
+}
+.answer_form {
+  position: relative;
+}
+@media (max-width: 768px) {
+  .answer_form button {
+    width: 70%;
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper {
+    /* margin-top: 83vh !important; */
+  }
+}

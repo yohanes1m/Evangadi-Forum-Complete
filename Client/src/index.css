@@ -1,0 +1,13 @@
+
+:root{
+    --orange-color:#FE8402;
+    --blue-color:#516CF0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+ min-height: 100vh !important;
+}

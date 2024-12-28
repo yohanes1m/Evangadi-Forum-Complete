@@ -1,0 +1,104 @@
+/*
+.groupEach_Questions {
+	border-top: solid 2px lightgrey ;
+	padding: 10px;
+	
+}
+.groupEach_Questions:hover {
+	background-color: rgb(155, 203, 250);
+	
+}
+.each_Questions {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 16px;
+	padding-top: 16px;
+	
+}
+.each_Questions p {
+	padding-left: 16px;
+	margin-left: 8px;
+	
+}
+.question {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.question div:hover {
+	color: black;
+	width: 20px;
+	height: 20px;
+	margin-right: 40px;
+	
+}
+.question_title {
+	margin-left: 40;
+	font: mono;
+	padding: 24px;
+	
+}
+
+*/
+/* AllQuestions.module.css */
+
+.groupEach_Questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.each_Questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+
+  background-color: #fcf9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.each_Questions:hover {
+  background-color: #fff;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.question svg {
+  font-size: 35px;
+  color: #1f2937;
+}
+
+.question_title {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #111827;
+}
+
+.each_Questions div:last-child svg {
+  font-size: 24px;
+  color: #3b82f6;
+}
+
+.each_Questions div:last-child svg:hover {
+  color: #2563eb;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+.profile {
+  margin-right: 100px;
+  border: solid 2px black;
+  border-radius: 50%;
+  padding: 20px
+}

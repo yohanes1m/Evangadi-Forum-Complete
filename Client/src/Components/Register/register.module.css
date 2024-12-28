@@ -1,0 +1,39 @@
+.card{
+   width: 600px;
+      height: 70vh;
+}
+  .btnblue {
+    color: #fff !important;
+    background-color: #fe8402;
+    border: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 8px 25px !important;
+    border-radius: 0px;
+  }
+  .btnsignup {
+    background-color: #516cf0;
+    border-color: #3a59ef;
+    border-radius: 4px !important;
+    display: block;
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 0px;
+    color: #fff;
+  }
+  .password_container {
+    position: relative;
+  }
+  
+  .password {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  

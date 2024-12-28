@@ -1,0 +1,124 @@
+.body {
+  font-family: poppins, sans-serif;
+  /* background-color: #f9fafb; */
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: poppins, sans-serif;
+}
+.loginContainer {
+  /* background: #fff; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  /* padding: 40px; */
+  width: 90%; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px; */
+}
+
+.loginContainer h1 {
+  font-size: 1.5rem;
+  font-weight: bald;
+  color: #414957;
+  /* margin-bottom: 12px; */
+}
+.loginContainer p {
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: #64748b;
+  margin-bottom: 40px;
+}
+.loginContainer p a {
+  color: #f39d41;
+  font-weight: 500;
+  text-decoration: none;
+}
+.inputContainer {
+  position: relative;
+  /* margin-bottom: 20px; */
+  text-align: left;
+}
+
+input {
+  width: 100% !important;
+  padding: 12px 0px !important;
+  padding-left: 15px !important;
+  border: 2px solid #e2e8f0 !important;
+  border-radius: 6px !important;
+  font-size: 1rem !important;
+  color: #334155 !important;
+  outline: none !important;
+  transition: border-color 0.3s ease !important;
+  margin: 0 !important;
+  /* background: #E8F0FE; */
+}
+input:focus {
+  border-color: #ee810d;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #94a3b8;
+  
+}
+.togglePassword:hover {
+  color: #64748b;
+}
+.forgotPasswordContainer {
+  text-align: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.forgotPassword {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #f39d41;
+  font-weight: 400;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+button {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 90px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #4f46e5;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .loginContainer {
+    width: 90%;
+  }
+}

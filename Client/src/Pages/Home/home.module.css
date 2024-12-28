@@ -1,0 +1,88 @@
+/*
+.outerContainer {
+	background-color: rgb(255, 255, 255);
+	margin-top: 70px;
+	padding-top: 50px;
+}
+.container {
+	padding: 20;
+}
+.askQuestion {
+	display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+}
+.welcome {
+    font-size: 24px;
+    padding-right: 20px;
+}
+*/
+/* Home.module.css */
+
+.outerContainer {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 100vh;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #fcf9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+
+.askQuestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.askQuestion button {
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.askQuestion button:hover {
+  background-color: #2563eb;
+}
+
+.welcome {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.welcome span {
+  font-weight: bold;
+  color: #ef4444;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: #fff;
+}
+@media (max-width: 680px) {
+  .outerContainer {
+    /* margin-top: 400px; */
+  }
+}
